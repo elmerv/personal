@@ -9,7 +9,7 @@ export class getHighlights extends Component {
         }
     }
     componentDidMount(){
-        fetch("https://developers.medal.tv/v1/latest?userId=10116284&categoryId=none&limit=3",
+        fetch("https://developers.medal.tv/v1/latest?userId=10116284&categoryId=none&limit=20",
         {   
             method: 'GET',
             headers:{
@@ -49,7 +49,7 @@ export class getHighlights extends Component {
                 <div key = {i}>
                     <div className="container" dangerouslySetInnerHTML = {{__html:source.embedIframeCode}}></div>
                 </div>
-
+        
 
 
             ))}
