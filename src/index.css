@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-
+p{
+  margin:0 !important;
+}
 h1{
   margin:0 !important;
 }
-.container-fluid{
-  padding-left:0 !important;
-  padding-right:0 !important;
-}
-
 html{
   margin:0;
 }
@@ -42,31 +39,32 @@ code {
   width:100vw;
   height:10vh;
   background-color:#C6772D ;
+  display: table;
 
 }
 #nameWrapper{
 
-  width: 50%;
-  top:50%;
-  display:block;
-  margin:auto;
+  margin-right:50vw;
+  color: #D39052;
 }
 #nameWrapper #title{
   padding-left:.2em;
 }
 #topBanner h1{
   font-family: 'Space Mono', monospace;
-  font-size: 3em;
+  font-size: 3vw;
   display: inline-block;
+  font-weight: 700;
 
 }
 #descriptionBanner h1{
   
   font-family: 'Space Mono', monospace;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   padding-right:62.5vw;
   padding-top:2%;
   color:#D0EBF6;
+  font-weight: 700;
 }
 #paragraph{
 
@@ -76,7 +74,15 @@ code {
 #paragraph p{
   color: #D0EBF6;
   padding-right:14%;
-  padding-left:13.5%;
-  font-size: 1.7em;
+  padding-left:12.5%;
+  font-size: 1.8vw;
   font-family: 'Space Mono', monospace;
+}
+.cell{
+  display: table-cell;
+  width: 33vw;
+  font-family: 'Space Mono', monospace;
+  color: #D0EBF6;
+  text-align:middle;
+  vertical-align: middle;
 }
