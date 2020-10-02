@@ -1,16 +1,31 @@
 
 import React, { Component } from 'react'
-
+import Typical from 'react-typical'
 export default class mainPage extends Component {
+
+
     render() {
         return (
             <>
-            <div id = "topBanner"> 
-                <div id ="nameWrapper"> 
-                    <h1 id = "consoleError">> </h1>
-                    <h1 id  = "title">   Elmer Vasquez</h1>
-                </div>
 
+            <div id = "topBanner"> 
+      
+                    <h1>
+                        > Hello,{''}
+                    <Typical loop = {Infinity} wrapper = "b" steps = {[
+                        "welcome to my website.",
+                        1000,
+                        "I'm Elmer Vasquez.",
+                        1000,
+                        "I'm a Developer",
+                        1000
+
+                    ]}
+                    />
+                    </h1>
+
+                    <img id = "typing" src= {require('./typingGif.gif')}/>
+                    
             </div>
 
             <div id = "descriptionBanner">
