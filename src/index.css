@@ -2,6 +2,8 @@
 p{
   margin:0 !important;
 }
+
+
 h1{
   margin:0 !important;
 }
@@ -97,7 +99,7 @@ code {
   color: #D0EBF6;
   padding-right:14%;
   padding-left:12.5%;
-  font-size: 1.8vw;
+  font-size: 155%;
   font-family: 'Space Mono', monospace;
 }
 .cell{
@@ -108,3 +110,11 @@ code {
   text-align:middle;
   vertical-align: middle;
 }
+
+a {
+  color: #FFF;
+}
+a:hover {
+   color: #FFF;
+   text-decoration: none;
+  }
