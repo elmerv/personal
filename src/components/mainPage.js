@@ -18,7 +18,7 @@ export default class mainPage extends Component {
                         1000,
                         "I'm Elmer Vasquez.",
                         1000,
-                        "I'm a Developer",
+                        "I'm a Dev",
                         1000
 
                     ]}
