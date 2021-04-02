@@ -1,3 +1,5 @@
+const { ESLint } = require("eslint");
+
 module.exports = {
   env: {
     browser: true,
@@ -7,6 +9,7 @@ module.exports = {
     'plugin:react/recommended',
     'standard'
   ],
+  parser: babel-eslint, 
   parserOptions: {
     ecmaFeatures: {
       jsx: true
