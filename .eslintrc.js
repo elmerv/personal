@@ -5,7 +5,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  parser: babel-eslint,
+  parser: babel,
   extends: [
     'plugin:react/recommended',
     'standard'
